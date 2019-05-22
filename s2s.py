@@ -7,6 +7,9 @@ import torch.nn as nn
 from torch import optim
 import torch.nn.functional as F
 
+from encoder_rnn import encoder_rnn
+from decoder_rnn import attention_decoder_rnn
+
 SOS_token = 0
 EOS_token = 1
 
